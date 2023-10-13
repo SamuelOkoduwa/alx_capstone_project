@@ -346,7 +346,7 @@
                 <mxCell id="649" value="&lt;font color=&quot;#bc855d&quot;&gt;Services&lt;/font&gt;" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.rrect;rSize=0;fontSize=17;fontColor=#0000ff;" vertex="1" parent="647">
                     <mxGeometry y="67.5" width="82.5" height="25" as="geometry"/>
                 </mxCell>
-                <mxCell id="650" value="&lt;font color=&quot;#ffffff&quot;&gt;Contact Me&lt;/font&gt;" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.rrect;rSize=0;fontSize=17;fontColor=#0000ff;" vertex="1" parent="647">
+                <mxCell id="650" value="&lt;font color=&quot;#bc855d&quot;&gt;Contact Me&lt;/font&gt;" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.rrect;rSize=0;fontSize=17;fontColor=#0000ff;" vertex="1" parent="647">
                     <mxGeometry x="2.5" y="105" width="82.5" height="25" as="geometry"/>
                 </mxCell>
                 <mxCell id="651" value="&lt;span style=&quot;background-color: rgb(26, 26, 26);&quot;&gt;&lt;font color=&quot;#bc855d&quot;&gt;About Me&lt;/font&gt;&lt;/span&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.rrect;rSize=0;fontSize=17;fontColor=#ffffff;fillColor=#1A1A1A;strokeColor=none;" vertex="1" parent="647">
