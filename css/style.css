@@ -77,9 +77,6 @@ body {
 .hero-section-button a:visited {
 	color: burlywood;
 }
-.hero-section-image {
-	
-}
 .hero-section-image img {
 	object-fit: conver;
 	width: 450px;
