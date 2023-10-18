@@ -49,13 +49,13 @@ body {
 	}	
 }
 
-
-
 /* Hero Section */
 .hero-section {
 	display: flex;
 	justify-content: center;
+	align-items:end;
 	padding: 150px;
+	margin-top: 0px;
 }
 .hero-section-description {
 	gap: 100px;
@@ -66,6 +66,7 @@ body {
 .hero-section-description h1 {
 	text-align: center;
 	font-size: 50px;
+	width: max-content;
 }
 .hero-section-description span {
 	color: #BC855D;
@@ -91,12 +92,9 @@ body {
 .hero-section-button a:link {
 	color: white;
 }
-.hero-section-button a:visited {
-	color: burlywood;
-}
 .hero-section-image img {
 	object-fit: conver;
-	width: 450px;
+	width: 550px;
 	height: 600px;
 	border-color: #BC855D;
 	border-radius: 20px;
@@ -114,9 +112,11 @@ body {
 .projects {
 	justify-content: space-around;
 	text-align: center;
-	/* padding: 50px; */
-	margin: 10px;
-	
+	color: white;
+	margin: 10px;	
+}
+.projects h1 {
+	font-size: 50px;
 }
 .project-cards {
 	display: flex;
@@ -125,8 +125,12 @@ body {
 }
 .project-card {
 	border: 2px solid white;
-	height: 550px;
+	height: 600px;
 	
+}
+.project-card p {
+	text-align: justify;
+	padding: 10px;
 }
 .project-card h2 {
 	padding-top: 20px;
