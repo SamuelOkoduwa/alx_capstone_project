@@ -1,8 +1,8 @@
 body {
-	width: 100%;
 	margin: 0;
 	padding: 0;
 	background-color: #331E25;
+	border: 5px solid red;
 	border-radius: 5px;
 	padding: 10px;
 }
@@ -11,6 +11,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding-left: 25px;
 }
 .logo img{
 	width:50px;
@@ -19,6 +20,8 @@ body {
 }
 .navigation-bar {
 	display: flex;
+	padding-right: 35px;
+	
 }
 .navigation-bar ul{
 	display: flex;
@@ -50,24 +53,19 @@ body {
 }
 
 /* Hero Section */
+main {
+	padding: 25px;
+}
 .hero-section {
 	display: flex;
-	justify-content: center;
-	align-items:end;
-	padding: 150px;
-	margin-top: 0px;
+	justify-content: center;	
 }
 .hero-section-description {
-	gap: 100px;
+	padding-top: 100px;
 	color: white;
-	padding-right: 150px;
-	padding-bottom: 120px;
+	
 }
-.hero-section-description h1 {
-	text-align: center;
-	font-size: 50px;
-	width: max-content;
-}
+
 .hero-section-description span {
 	color: #BC855D;
 }
@@ -98,22 +96,26 @@ body {
 	height: 600px;
 	border-color: #BC855D;
 	border-radius: 20px;
-}
+} 
 
 @media only screen and (max-width: 1000px) {
 	.hero-section {
 		display: flex;
-		padding-left: 10px;
+		flex-direction:column-reverse;
+	}
+	.hero-section-description p {
+		text-align:justify;
+		padding-bottom: 10px;
+		/* font-size: 10px; */
 	}
 }
-
 
 /* Projects */
 .projects {
 	justify-content: space-around;
 	text-align: center;
 	color: white;
-	margin: 10px;	
+	margin: 10px;
 }
 .projects h1 {
 	font-size: 50px;
@@ -121,16 +123,18 @@ body {
 .project-cards {
 	display: flex;
 	color: white;
-	gap: 10px;
+	/* gap: 10px; */
+	justify-content: space-around;
 }
 .project-card {
 	border: 2px solid white;
-	height: 600px;
-	
+	width: 300px;
+	padding-bottom: 15px;
 }
 .project-card p {
 	text-align: justify;
 	padding: 10px;
+	height: 200px;
 }
 .project-card h2 {
 	padding-top: 20px;
@@ -139,15 +143,15 @@ body {
 	border: 1px solid white;
 	margin: 5px;
 	padding: 5px;
+	height: 200px;
 }
 .project-image img {
-	width: 350px;
-	height: 250px;
-	/* object-fit: cover; */
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 .project-button {
 	text-align: center;
-	margin-top: 25px;
 }
 .project-button a{
 	color: white;
@@ -159,9 +163,6 @@ body {
 .project-button a:hover {
 	color: chocolate;
 }
-.project-button a:visited {
-	color: burlywood;
-}
 .project-more {
 	padding-top: 20px;
 	font-size: 25px;
@@ -172,10 +173,13 @@ body {
 .project-more a:hover {
 	color: chocolate;
 }
-.project-more a:visited {
-	color: burlywood
+@media only screen and (max-width: 1000px) {
+	.project-cards {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	
 }
-
 
 /* The footer */
 footer {
